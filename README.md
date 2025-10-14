@@ -1,3 +1,2 @@
-this is NOT committed in main branch
-`repo for school do NOT commit from home`
+`repo for school do NOT commit to main directly`
 
