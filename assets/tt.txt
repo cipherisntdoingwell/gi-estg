@@ -1,2 +1,0 @@
-all assets are in this folder
-use this folder for all changes
