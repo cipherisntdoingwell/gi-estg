@@ -28,18 +28,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
-      - name: Copy files to deploy
-        run: |
-          mkdir -p _site
-          cp -r ServiceProWebsite/templates/* _site/
-          cp -r ServiceProWebsite/assets _site/
-          cp ServiceProWebsite/styles.css _site/
-          cp ServiceProWebsite/script.js _site/
-      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: 'ServiceProWebsite'
       
       - name: Deploy to GitHub Pages
         id: deployment
