@@ -1,6 +1,8 @@
 # Importation des modules nécessaires depuis Flask
 from flask import Flask, request, redirect, url_for, render_template
 
+app = Flask(__name__)
+
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -14,7 +16,7 @@ def contact():
     return render_template('contact.html')
 
 # Création de l'application Flask
-app = Flask(__name__)
+
 
 # Définition de la route pour traiter les données du formulaire
 @app.route('/submit', methods=['POST'])
