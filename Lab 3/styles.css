@@ -55,3 +55,27 @@ a {
 a[target="_blank"] {
   color: red; 
 }
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+body {
+  background-color: lightgray; 
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 15px;
+}
+
+img {
+  border: 1px solid gray;
+}
